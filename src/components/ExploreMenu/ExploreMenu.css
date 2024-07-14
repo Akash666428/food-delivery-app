@@ -1,0 +1,118 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500;
+}
+.explore-menu-text{
+    max-width: 60%;
+    color: #808080;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color: #6b6969;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 3px;
+    background: rgb(177,58,180);
+    background: linear-gradient(90deg, rgba(177,58,180,1) 0%, rgba(29,94,253,1) 50%, rgba(252,121,69,0.8128501400560224) 100%);
+    border: none;
+    animation: loader 3s infinite linear;
+}
+.explore-menu-list-item .active{
+    border: 3px solid purple;
+    padding: 2px;
+}
+@media (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
